@@ -43,12 +43,16 @@ def handleClick():
 
 buildDeck()
 
+
 deal = 5
 for c in range(deal):
     b = makeButton()
+    #we have to store the buttons in an array because they are objects
     dealt.append(b)
     buttonImage = PhotoImage(file = cardImagesList[c])
+    #we have to store the images in an array because they are objects
     imageObjects.append(buttonImage)
+    #we get the last button created and place the last image created on it
     dealt[len(dealt) -1].config(image = imageObjects[len(imageObjects) - 1])
     b.pack()
     
