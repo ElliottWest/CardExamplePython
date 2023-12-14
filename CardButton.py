@@ -53,7 +53,7 @@ for c in range(deal):
     #we have to store the images in an array because they are objects
     imageObjects.append(buttonImage)
     #we get the last button created and place the last image created on it
-    dealt[len(dealt) -1].config(image = imageObjects[len(imageObjects) - 1])
+    b.config(image = buttonImage)
     b.pack()
     
 
