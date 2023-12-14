@@ -44,7 +44,7 @@ def handleClick():
 buildDeck()
 
 
-deal = 52
+deal = 10
 r = 0
 c = 0
 count = 0
