@@ -19,13 +19,13 @@ dealt = []
 imageObjects = []
 cardImagesList = []#this is a list of image paths
 
-def makeButton():
+def makeButton(i):
     button = Button(master=gameButtons,
     width=50,
     height=68,
     bg="black",
     fg="white",
-    command=lambda: handleClick()
+    command=lambda: handleClick(i)
     )
     return button
 
@@ -37,8 +37,8 @@ def buildDeck():
             cardImagesList.append(buttonPath)
 
         
-def handleClick():
-    print()
+def handleClick(i):
+    print(i)
 
 
 buildDeck()
@@ -49,7 +49,7 @@ r = 0
 c = 0
 count = 0
 for card in range(deal):
-    b = makeButton()
+    b = makeButton(cardImagesList[card])
     #we have to store the buttons in an array because they are objects
     dealt.append(b)
     buttonImage = PhotoImage(file = cardImagesList[card])
@@ -62,7 +62,7 @@ for card in range(deal):
     count += 1
     c += 1
     b.grid(row = r, column = c)
-    
+
 
 gameButtons.pack(side = LEFT, fill=BOTH, expand=True)
 window.mainloop()
