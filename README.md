@@ -6,11 +6,11 @@
 
 ## Overview
 
-the program gives the user a 10 by 10 grid of blocks to press all with the 50% chance of provoking Krampus I was going to create the game to be more complicated but this was already a lot of work for me so after a minute is up the text reads that you've provoked Krampus.
+the program gives the user a 10 by 10 grid of blocks to press all with the 50% chance of provoking Krampus I was going to create the game to be more complicated but this was already a lot of work for me so after a minute is up the text reads that you've provoked Krampus. I used user input to click the buttons to either provoke krampus or to not. Like I said I wanted to make this more complicated but I ended up nit having enough time and not to be making excuses but the last two weeks have been pretty stressful for me in my sport swimming so this program isn't what it could be.
 
 ## Compiling and Using
 
-The only required files are my image file and the file that has my code of course
+The only required files are my image file and the file that has my code of course, ignore the cardbutton file as it has no purpose.
 
 ## Discussion
 
@@ -34,10 +34,11 @@ The only required files are my image file and the file that has my code of cours
 
 ## Testing
 
-I used the play feature and tried code out on different files I tried to use some old code but I had to start from scratch
+I used the play feature and tried code out on different files I tried to use some old code but I had to start from scratch, I started from a slightly less complicated block of code that just created a 10 by 10 grid that allowed you to press down the buttons and stayed pressed down. I then added a timer and imported random. I then added the image which took longer than expected and wanted to add music as well but PiP installer kept on failing on me sadly so I wasn't able to add a jumpscare sound effect. In the end the image doesn't fit in the girds block 1x1 but I'm just glad it works at all. 
 
 ## Sources used
 https://www.youtube.com/watch?v=CqtSys4-q7w
+how to install PiP but it didn't end up working.
 https://www.plus2net.com/python/tkinter-clock.php
 https://www.geeksforgeeks.org/python-grid-method-in-tkinter/
-ChatGPT for help in creating a button that will stay pushed and help in uderstanding why my code wasn't working
+ChatGPT for help in creating a button that will stay pushed and help in uderstanding why my code wasn't working 
